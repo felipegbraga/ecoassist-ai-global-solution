@@ -1,0 +1,6 @@
+equipamento;potencia_W;horas_por_dia;dias_no_mes;quantidade;consumo_kWh;origem
+Geladeira (exemplo);65;12;30;1;23,40;Hipotese didatica
+Chuveiro;5500;0,5;30;1;82,50;Hipotese didatica
+TV;100;5;30;1;15,00;Hipotese didatica
+Lampadas LED;9;5;30;6;8,10;Hipotese didatica
+Ventilador;70;8;30;1;16,80;Hipotese didatica
