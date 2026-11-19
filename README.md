@@ -37,12 +37,15 @@ Abrir o endereço informado pelo Vite. Para validar: `npm test` e `npm run build
 **Atenção:** o modelo não prevê a fatura real, pois esta pode conter tributos, bandeiras, encargos, custo de disponibilidade e regras de compensação. Os parâmetros iniciais são **hipóteses didáticas**, não dados medidos nem garantias de economia. A geração varia conforme local, sombreamento, inclinação, clima e instalação.
 
 ## Estrutura
-- `src/energy.js`: cálculos puros; `src/main.js`: aplicação e assistente; `src/style.css`: estilos.
-- `tests/energy.test.js`: verificações automáticas.
+- `src/energy.ts`: cálculos puros; `src/App.tsx`: interface e assistente orientativo; `src/main.tsx`: inicialização React; `src/styles.css`: estilos.
+- `tests/energy.test.ts`: verificações automatizadas (execução local ainda pendente de confirmação).
 - `docs/analise-energetica.md`: cálculos de exemplo, comparação, premissas, impactos e referências.
 - `docs/testes-usuarios.md`: roteiro e registro de testes **a preencher após testes reais**.
 - `docs/roteiro-video.md`: roteiro de demonstração.
 - `ENTREGA_FINAL_MODELO.txt`: modelo do único arquivo a enviar na plataforma, após inserir link do vídeo.
+
+## Estado de validação
+Os cálculos foram conferidos por aritmética independente, mas a compilação TypeScript, o build, os testes automatizados e a navegação em navegador ainda não foram executados com sucesso nesta sessão, pois as dependências não puderam ser instaladas neste ambiente. Execute `npm install`, `npm test` e `npm run build` antes de entregar e documente os resultados reais. O arquivo `docs/testes-usuarios.md` contém um modelo de coleta, não evidências de testes já realizados.
 
 ## Entrega
 O enunciado exige repositório organizado, vídeo **não listado** de até 3 minutos no YouTube e **um único arquivo TXT** contendo integrantes, URL do GitHub e URL do vídeo. O grupo deve executar testes de usabilidade reais e registrar feedback/ajustes. Não são declarados testes com pessoas que ainda não aconteceram.
